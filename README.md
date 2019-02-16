@@ -37,8 +37,6 @@ unzip test.zip -d test
 
 The data takes up ~10GB in total. train.csv is about 8.9GB and test contains 2624 segments ranging from 300KB-400KB each, summing up to 830MB.
 
-To unzip all the data 
-
 ### Using the notebooks
 
 #### Shaking earth
@@ -73,6 +71,9 @@ pip install xgboost
 pip install catboost
 ```
 
+To actually use the notebooks locally, once you have installed all the packages you have to run `jupyter lab` from the command line while in the repo's root folder. This will open a browser tab leading you to a jupyter lab main page. From the sidebar on the left side of the page click on `notebooks` and then pick the one you want to check out.
+
+Each notebook is organized in cells and each cell can be run on its own. You can modify its contents and rerun it.
 
 ## Notes
 
