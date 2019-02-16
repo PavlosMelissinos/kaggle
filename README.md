@@ -43,6 +43,8 @@ The data takes up ~10GB in total. train.csv is about 8.9GB and test contains 262
 
 "Shaking earth" is an introductory jupyter notebook meant to give the user a high level overview of how the data is structured. Taken from here: https://www.kaggle.com/allunia/shaking-earth
 
+View it here: https://nbviewer.jupyter.org/github/PavlosMelissinos/kaggle/blob/master/notebooks/shaking-earth.ipynb
+
 ##### Install required python packages
 
 ```
@@ -55,6 +57,8 @@ pip install seaborn
 #### Seismic data EDA and baseline
 
 "Seismic data EDA and baseline" is a bit more extensive and does some training as well with various machine learning models (decision trees such as xgboost, support vector regression and others). Taken from here: https://www.kaggle.com/artgor/seismic-data-eda-and-baseline
+
+View it here: https://nbviewer.jupyter.org/github/PavlosMelissinos/kaggle/blob/master/notebooks/seismic-data-eda-and-baseline.ipynb
 
 ##### Install required python packages
 
