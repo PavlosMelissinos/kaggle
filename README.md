@@ -9,8 +9,11 @@ https://www.kaggle.com/c/LANL-Earthquake-Prediction/overview
 ### Kaggle discussions
 
 https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/77525
+
 https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/77526
+
 https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/77267
+
 https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/80250 (This is supposed to help with memory problems; the dataset is huge so it doesn't fit in memory)
 
 
