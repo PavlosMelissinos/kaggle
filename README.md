@@ -6,17 +6,6 @@ https://www.kaggle.com/c/LANL-Earthquake-Prediction/overview
 
 ## Getting started
 
-### Kaggle discussions
-
-https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/77525
-
-https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/77526
-
-https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/77267
-
-https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/80250 (This is supposed to help with memory problems; the dataset is huge so it doesn't fit in memory)
-
-
 ### Downloading the data
 
 Download the kaggle cli tool:
@@ -39,20 +28,13 @@ The data takes up ~10GB in total. train.csv is about 8.9GB and test contains 262
 
 ### Using the notebooks
 
+[Installation instructions](docker/README.md)
+
 #### Shaking earth
 
 "Shaking earth" is an introductory jupyter notebook meant to give the user a high level overview of how the data is structured. Taken from here: https://www.kaggle.com/allunia/shaking-earth
 
 View it here: https://nbviewer.jupyter.org/github/PavlosMelissinos/kaggle/blob/master/notebooks/shaking-earth.ipynb
-
-##### Install required python packages
-
-```
-pip install jupyterlab
-pip install pandas
-pip install matplotlib
-pip install seaborn
-```
 
 #### Seismic data EDA and baseline
 
@@ -60,24 +42,19 @@ pip install seaborn
 
 View it here: https://nbviewer.jupyter.org/github/PavlosMelissinos/kaggle/blob/master/notebooks/seismic-data-eda-and-baseline.ipynb
 
-##### Install required python packages
-
-```
-pip install jupyterlab
-pip install ipywidgets
-pip install pandas
-pip install matplotlib
-pip install seaborn
-pip install tqdm
-pip install sklearn
-pip install lightgbm
-pip install xgboost
-pip install catboost
-```
-
-To actually use the notebooks locally, once you have installed all the packages you have to run `jupyter lab` from the command line while in the repo's root folder. This will open a browser tab leading you to a jupyter lab main page. From the sidebar on the left side of the page double click on `notebooks` and then pick the one you want to check out.
-
 Each notebook is organized in cells and each cell can be run on its own. You can modify its contents and rerun it.
+
+
+### Kaggle discussions
+
+https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/77525
+
+https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/77526
+
+https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/77267
+
+https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/80250 (This is supposed to help with memory problems; the dataset is huge so it doesn't fit in memory)
+
 
 ## Notes
 
